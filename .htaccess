@@ -1,0 +1,17 @@
+# Desativa a exibição de arquivos diretamente na URL
+Options -Indexes
+
+# Define o arquivo index como página principal
+DirectoryIndex index.php
+
+# Define a página de erro 404
+ErrorDocument 404 /404.php
+
+# Define as regras de redirecionamento
+RewriteEngine On
+RewriteRule ^sobre$ sobre.html [NC,L]
+RewriteRule ^contato$ contato.html [NC,L]
+RewriteRule ^contato$ ver.php [NC,L]
+RewriteRule ^contato$ painel.php [NC,L]
+RewriteRule ^sair$ sair.php [NC,L]
+RewriteRule ^postar/([0-9]+)$ postar.php?id=$1 [NC,L]

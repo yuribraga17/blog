@@ -1,0 +1,73 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #0062cc;
+}
+
+/* Estilos específicos para a página de registro */
+.error {
+    color: #f00;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #0a0;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para a página de login */
+form {
+    width: 30%;
+}
+
+input[type="password"] {
+    margin-bottom: 40px;
+}
+
+/* Ajuste para o botão de envio na página de login */
+button[type="submit"] {
+    margin-top: 20px;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}

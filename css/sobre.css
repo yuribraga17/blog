@@ -1,0 +1,30 @@
+/* Estilos para o título */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para o texto principal */
+p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Estilos para a lista */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para os itens da lista */
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
