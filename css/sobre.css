@@ -1,30 +1,52 @@
-/* Estilos para o título */
-h1 {
-    text-align: center;
-    margin-top: 50px;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Estilos para o texto principal */
-p {
-    font-size: 18px;
-    margin: 20px;
+.sidebar {
+    width: 25%;
+    background-color: #f5f5f5;
+    padding: 20px;
 }
 
-/* Estilos para a lista */
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilos para os itens da lista */
-li {
-    font-size: 16px;
+.sidebar h2 {
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
-footer {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar li a:hover {
+    color: #666;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
